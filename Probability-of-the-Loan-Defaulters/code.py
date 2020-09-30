@@ -2,6 +2,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import mathematics 
+
+
 
 # Load the dataframe
 df = pd.read_csv(path)
@@ -25,6 +28,7 @@ print(p_a_b)
 # Check whether the P(A) and P(B) are independent from each other
 result = (p_a == p_a_b)
 print(result)
+print(''This is the result',result)
 
 
 # --------------
