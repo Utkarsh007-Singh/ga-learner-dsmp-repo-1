@@ -3,7 +3,8 @@
 import numpy as np
 import pandas as pd
 from scipy.stats import mode 
-
+import randomforest as rf
+import matplot as mlt
 
 
 # code starts here
@@ -17,7 +18,7 @@ bank = pd.read_csv(path)
 categorical_var=bank.select_dtypes(include='object')
 
 
-#print("Categorical variables : ",categorical_var)
+#print("Categorical variables : ",categorical_val)
 print(categorical_var)
 
     
