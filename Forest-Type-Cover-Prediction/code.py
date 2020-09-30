@@ -1,5 +1,8 @@
 # --------------
 import pandas as pd
+import numpy as np
+from math import *
+
 from sklearn import preprocessing
 
 #path : File path
@@ -21,6 +24,9 @@ dataset.drop(columns = 'Id', inplace=True)
 # check the statistical description
 
 print(dataset.describe())
+print(dataset.describe())
+print(dataset.describe())
+
 
 
 # --------------
